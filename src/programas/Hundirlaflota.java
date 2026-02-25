@@ -5,13 +5,12 @@
 package programas;
 
 import java.util.Scanner;
-import java.net.http.*;
 
 /**
  *
  * @author isard
  */
-public class Hundirlaflota {
+public class hundirBarco {
 
     /*
      * Leyenda de los codigos internos
