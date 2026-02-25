@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author isard
  */
-public class NavarroLuis_04 {
+public class Cuaderno4_2{
 
     public static Scanner teclado = new Scanner(System.in);
 

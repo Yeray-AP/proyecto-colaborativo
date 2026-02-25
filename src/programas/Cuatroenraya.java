@@ -10,6 +10,8 @@ import java.util.Scanner;
  *
  * @author isard
  */
+
+
 public class Cuatroenraya {
 
     private static int matriz[][] = new int[6][7];
