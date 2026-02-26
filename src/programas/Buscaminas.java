@@ -22,7 +22,7 @@ public class Buscaminas {
     private static int fila = -1;
     private static int columna = -1;
     private static boolean bomba_explotada = false;
-    public static int partidas_ganadas = 0;
+    public static int partidas_ganadas = 2;
 
     /**
      * Funcion para iniciar el juego donde se van llamando al resto de las
