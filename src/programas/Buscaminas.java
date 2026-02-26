@@ -19,7 +19,11 @@ public class Buscaminas {
                                            // muestra por terminal
     private static int bombastotales = 0;
     private static int contador_casillas_correctas;
+<<<<<<< HEAD
     private static int fila = -9;
+=======
+    private static int fila = -2;
+>>>>>>> afee0ef99e975c259100e4238125bc5fa742d8ad
     private static int columna = -1;
     private static boolean bomba_explotada = false;
     public static int partidas_ganadas = 2;
