@@ -1,6 +1,6 @@
-## Getting Started
+## Cuaderno 4_2 de la asignatura entornos de desarrollo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este cuaderno tiene la finalidad de que los alumnos aprendan a usar github y sus funcionalidades
 
 ## Folder Structure
 
