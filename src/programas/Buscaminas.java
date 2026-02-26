@@ -19,10 +19,10 @@ public class Buscaminas {
                                            // muestra por terminal
     private static int bombastotales = 0;
     private static int contador_casillas_correctas;
-    private static int fila = -9;
+    private static int fila = -1;
     private static int columna = -1;
     private static boolean bomba_explotada = false;
-    public static int partidas_ganadas = 2;
+    public static int partidas_ganadas = 0;
 
     /**
      * Funcion para iniciar el juego donde se van llamando al resto de las
@@ -83,16 +83,7 @@ public class Buscaminas {
     private static void PonerBandera() {
         fila = -1;
         columna = -1; // Reinicio el valor de las variables
-        while (fila < 0 || fila > matriz_tablero.length || columna < 0 || columna > matriz_tablero.length) { // Comprobar
-                                                                                                             // que la
-                                                                                                             // fila y
-                                                                                                             // columna
-                                                                                                             // son la
-                                                                                                             // validas
-                                                                                                             // en la
-                                                                                                             // matriz,
-                                                                                                             // y asi no
-                                                                                                             // peta
+        while (fila < 0 || fila > matriz_tablero.length || columna < 0 || columna > matriz_tablero.length) { // Comprobar que la fila y columna son la validas en la matriz, y asi no peta
             System.out.println("Introduce la fila de la casilla que quieres poner una bandera");
             fila = teclado.nextInt();
             System.out.println("Introduce la columna de la casilla que quieres poner una bandera");
